@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>SafeWorld</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+    <link href="imgGame/img1/0-icon.png" rel="icon">
+
+    <!--Style CSS-->
+    <link href="lib/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="css/game.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="lib/font/Jost-font.css" rel="stylesheet">
+
+</head>
+
+<body dir="ltr">
+    <!--Start Secion navbar----------------------------------------------------------->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0 shadow-sm">
+        <a href="index.html" class="navbar-brand ms-lg-5">
+            <h1 class="display-5 m-0 text-primary">Safe<span class="text-secondary">World</span></h1>
+        </a>
+        <select class="btn btn-sm h-25  mx-2">
+            <option value="en" data-i18n="english" selected>English</option>
+            <option value="ar" data-i18n="arabic">Arabic</option>
+        </select>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0 mx-auto">
+                <a href="index.html" class="nav-item nav-link" data-i18n="home">Home</a>
+                <a href="0-cop.html" class="nav-item nav-link" data-i18n="cop">COP27</a>
+                <a href="1-play.html" class="nav-item nav-link" data-i18n="play">Play</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-i18n="pages">Pages</a>
+                    <div class="dropdown-menu m-0 rounded-3">
+                        <a href="2-climate.html" class="dropdown-item hover" data-i18n="climate">Climate Change</a>
+                        <a href="3-reasons.html" class="dropdown-item hover" data-i18n="causes">Causes of climate change</a>
+                        <a href="4-solution.html" class="dropdown-item hover" data-i18n="solutions">Solutions and alternatives</a>
+                        <a href="5-egypt.html" class="dropdown-item hover" data-i18n="egypt">Egypt's efforts</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End Secion navbar-->
+
+
+    <!-- Start Secion cop-------------------------------------------------------------->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row gx-5">
+
+
+                <div id="game-over" class="control-buttons">
+                    <span>Start Game</span>
+                </div>
+
+                <div class="info-container">
+                    <div class="name">
+                        Hello: <span></span>
+                    </div>
+                    <div class="tries">
+                        Wrong Tries: <span>0</span>
+                    </div>
+                </div>
+
+                <div class="memory-game-blocks">
+
+                    <div class="game-block" data-letters="A">
+                        <div class="face front"></div>
+                        <div class="face back">
+                            <img src="imgGame/img1/A.jpg"></img>
+                        </div>
+                    </div>
+                    <div class="game-block" data-letters="A">
+                        <div class="face front"></div>
+                        <div class="face back">
+                            <img src="imgGame/img2/A.jpg"></img>
+                        </div>
+                    </div>
+
+                    <div class="game-block" data-letters="B">
+                        <div class="face front"></div>
+                        <div class="face back">
+                            <img src="imgGame/img1/B.jpg"></img>
+                        </div>
+                    </div>
+                    <div class="game-block" data-letters="B">
+                        <div class="face front"></div>
+                        <div class="face back">
+                            <img src="imgGame/img2/B.jpg"></img>
+                        </div>
+                    </div>
+
+                    <div class="game-block" data-letters="F">
+                        <div class="face front"></div>
+                        <div class="face back">
+                            <img src="imgGame/img1/C.jpg"></img>
+                        </div>
+                    </div>
+                    <div class="game-block" data-letters="F">
+                        <div class="face front"></div>
+                        <div class="face back">
+                            <img src="imgGame/img2/C.jpg"></img>
+                        </div>
+                    </div>
+
+                    <div class="game-block" data-letters="J">
+                        <div class="face front"></div>
+                        <div class="face back">
+                            <img src="imgGame/img1/D.jpg"></img>
+                        </div>
+                    </div>
+                    <div class="game-block" data-letters="J">
+                        <div class="face front"></div>
+                        <div class="face back">
+                            <img src="imgGame/img2/D.jpg"></img>
+                        </div>
+                    </div>
+
+                    <div class="game-block" data-letters="L">
+                        <div class="face front"></div>
+                        <div class="face back">
+                            <img src="imgGame/img1/E.jpg"></img>
+                        </div>
+                    </div>
+                    <div class="game-block" data-letters="L">
+                        <div class="face front"></div>
+                        <div class="face back">
+                            <img src="imgGame/img2/E.jpg"></img>
+                        </div>
+                    </div>
+
+                    <div class="game-block" data-letters="M">
+                        <div class="face front"></div>
+                        <div class="face back">
+                            <img src="imgGame/img1/F.jpg"></img>
+                        </div>
+                    </div>
+                    <div class="game-block" data-letters="M">
+                        <div class="face front"></div>
+                        <div class="face back">
+                            <img src="imgGame/img2/F.jpg"></img>
+                        </div>
+                    </div>
+
+                    <div class="game-block" data-letters="N">
+                        <div class="face front"></div>
+                        <div class="face back">
+                            <img src="imgGame/img1/G.jpg"></img>
+                        </div>
+                    </div>
+                    <div class="game-block" data-letters="N">
+                        <div class="face front"></div>
+                        <div class="face back">
+                            <img src="imgGame/img2/G.jpg"></img>
+                        </div>
+                    </div>
+
+                    <div class="game-block" data-letters="R">
+                        <div class="face front"></div>
+                        <div class="face back">
+                            <img src="imgGame/img1/H.jpg"></img>
+                        </div>
+                    </div>
+                    <div class="game-block" data-letters="R">
+                        <div class="face front"></div>
+                        <div class="face back">
+                            <img src="imgGame/img2/H.jpg"></img>
+                        </div>
+                    </div>
+
+                    <div class="game-block" data-letters="S">
+                        <div class="face front"></div>
+                        <div class="face back">
+                            <img src="imgGame/img1/I.jpg"></img>
+                        </div>
+                    </div>
+                    <div class="game-block" data-letters="S">
+                        <div class="face front"></div>
+                        <div class="face back">
+                            <img src="imgGame/img2/I.jpg"></img>
+                        </div>
+                    </div>
+
+                    <div class="game-block" data-letters="Y">
+                        <div class="face front"></div>
+                        <div class="face back">
+                            <img src="imgGame/img1/J.jpg"></img>
+                        </div>
+                    </div>
+                    <div class="game-block" data-letters="Y">
+                        <div class="face front"></div>
+                        <div class="face back">
+                            <img src="imgGame/img2/J.jpg"></img>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reload mt-5">
+                    <span onclick="location.reload()">Reload</span>
+                </div>
+
+                <audio id="start" src="audio/start.mp3" preload="auto"></audio>
+                <audio id="success" src="audio/win.mp3" preload="auto"></audio>
+                <audio id="fall" src="audio/lost.mp3" preload="auto"></audio>
+            </div>
+        </div>
+    </div>
+    <!-- End Secion cop-->
+
+    <!-- Footer Start ---------------------------------------------------------------------->
+    <div class="container-fluid bg-primary text-light">
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-md-6  text-md-start ">
+                    <h3 class="mb-md-0">&copy; Ramy Salama</h3>
+                </div>
+                <div class="col-md-6 text-md-end ">
+                    <div class="d-flex">
+                        <a class="btn-lg-square rounded me-2" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#120F2D" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <rect x="4" y="4" width="16" height="16" rx="2" />
+                            <line x1="8" y1="11" x2="8" y2="16" />
+                            <line x1="8" y1="8" x2="8" y2="8.01" />
+                            <line x1="12" y1="16" x2="12" y2="11" />
+                            <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                            </svg>
+                        </a>
+                        <a class="btn-lg-square rounded" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-youtube" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#120F2D" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <rect x="3" y="5" width="18" height="14" rx="4" />
+                            <path d="M10 9l5 3l-5 3z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- ------------------------------------------------------------------------------------- -->
+    <!-- ------------------------------------------------------------------------------------- -->
+    <!-- ------------------------------------------------------------------------------------- -->
+
+
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery.js"></script>
+    <script src="lib/bootstrap/bootstrap.js"></script>
+
+    <!--Javascript -->
+    <script src="js/game.js"></script>
+    <!-- trans code -->
+    <script src="js/script.js" type="module"></script>
+</body>
+
+</html>
