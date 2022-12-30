@@ -31,13 +31,16 @@
             <option value="en" data-i18n="english" selected>English</option>
             <option value="ar" data-i18n="arabic">Arabic</option>
         </select>
+        <div class="nav-icon">
+            <img src="img/ramy.jfif" alt="">
+        </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0 mx-auto">
-                <a href="index.html" class="nav-item nav-link" data-i18n="home">Home</a>
+                <a href="home.html" class="nav-item nav-link" data-i18n="home">Home</a>
                 <a href="0-cop.html" class="nav-item nav-link" data-i18n="cop">COP27</a>
                 <a href="1-play.html" class="nav-item nav-link" data-i18n="play">Play</a>
                 <div class="nav-item dropdown">
@@ -49,6 +52,7 @@
                         <a href="5-egypt.html" class="dropdown-item hover" data-i18n="egypt">Egypt's efforts</a>
                     </div>
                 </div>
+                <a href="index.html" class="nav-item nav-link" data-i18n="signin">login</a>
             </div>
         </div>
     </nav>
@@ -72,15 +76,16 @@
             <div class="row gx-5">
                 <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded-3 wow zoomIn" data-wow-delay="0.3s" src="img/climate2.jpg">
+                        <img style="max-height: 50%;" class="position-absolute w-100 h-100 rounded-3 wow zoomIn" 
+                        data-wow-delay="0.3s" src="img/climate2.jpg">
                     </div>
                 </div>
                 <div class="col-lg-7">
                     <div class="mb-4">
-                        <h3 class="display-5 mb-0" data-i18n="titleClimate"></h3>
+                        <h3 class="display-5 mb-0" data-i18n="titleClimate">What is climate change?</h3>
                     </div>
-                    <p class="mb-4" data-i18n="bodyClimate"></p>
-                    <a class="btn-sm btn-primary" data-i18n="downloPDF" href="https://www.idsc.gov.eg/Upload/DocumentLibrary/Attachment_A/6324/%D8%A7%D9%84%D8%AA%D8%BA%D9%8A%D8%B1%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%AE%D9%8A%D8%A9.pdf"></a>
+                    <p class="mb-4" data-i18n="bodyClimate">Climate change refers to long-term shifts in temperatures and weather patterns. These shifts may be natural and occur, for example, through changes in the solar cycle. However, since the 19th century, human activities have become the main cause of climate change, mainly due to the burning of fossil fuels, such as coal, oil and gas. Burning fossil fuels emits greenhouse gases that act like a blanket wrap around the globe, trapping the sun's heat and raising temperatures. Examples of greenhouse gas emissions causing climate change include carbon dioxide and methane. These gases produce For example, about using gasoline to drive cars or coal to heat buildings. Clearing land of grasses and shrubs and cutting down forests can also release carbon dioxide. Landfills are a major source of methane emissions. Energy production and consumption, industry, transportation, buildings, agriculture and land use are among the main sources of emissions. And emissions continue to rise. As a result, the globe is now 1.1°C warmer than it was in the late 19th century. And the last decade (2011-2020) was the warmest on record. Many people think that climate change mainly means warming, but warming is only the beginning of the story, and because the earth is a system, everything is connected, And the last decade (2011-2020) was the warmest on record. Many people think that climate change mainly means warming, but warming is only the beginning of the story, and because the Earth is such a system, where everything is connected, changes in one area may lead to changes in all others. The consequences of climate change include, among others, severe droughts, water scarcity, severe fires, rising sea levels, floods, melting polar ice, catastrophic storms, and degradation of biodiversity. Climate change can affect our health, ability to grow food, housing, safety and work. Some of us are more vulnerable to the effects of climate, such as people who live in small island states and other developing countries. Conditions such as sea level rise and saltwater intrusion have worsened to the point where entire communities have had to relocate, and prolonged droughts are putting people at risk of starvation. In the future, the number of climate refugees is expected to increase.</p>
+                    <a class="btn-sm btn-primary" data-i18n="downloPDF" href="https://www.idsc.gov.eg/Upload/DocumentLibrary/Attachment_A/6324/%D8%A7%D9%84%D8%AA%D8%BA%D9%8A%D8%B1%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%AE%D9%8A%D8%A9.pdf">downlo PDF</a>
 
                     <div class="row g-3 mt-5">
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
@@ -131,7 +136,7 @@
     <!--Javascript -->
     <script src="js/main.js"></script>
     <!-- trans code -->
-    <script src="js/script.js" type="module"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

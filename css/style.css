@@ -106,6 +106,17 @@ h6,
     color: var(--primary);
 }
 
+.nav-icon{
+    
+    width: 40px;
+    height: 40px;
+}
+.nav-icon img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
 @media (min-width: 992px) {
     .navbar-light .navbar-nav .nav-link::before {
         position: absolute;

@@ -1,7 +1,7 @@
 :root {
-    --border: #fff;
+    --border: rgb(244, 246, 253);
     --text: #252b43;
-    --background: #fff;
+    --background: rgb(244, 246, 253);
     --box-shadow: 0 .2rem .2rem rgba(0, 0, 0, .3)
 }
 
@@ -63,6 +63,8 @@ body {
 .show {
     display: block;
 }
+
+
 
 .info-container .name {
     float: left;

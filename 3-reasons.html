@@ -31,13 +31,16 @@
             <option value="en" data-i18n="english" selected>English</option>
             <option value="ar" data-i18n="arabic">Arabic</option>
         </select>
+        <div class="nav-icon">
+            <img src="img/ramy.jfif" alt="">
+        </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0 mx-auto">
-                <a href="index.html" class="nav-item nav-link" data-i18n="home">Home</a>
+                <a href="home.html" class="nav-item nav-link" data-i18n="home">Home</a>
                 <a href="0-cop.html" class="nav-item nav-link" data-i18n="cop">COP27</a>
                 <a href="1-play.html" class="nav-item nav-link" data-i18n="play">Play</a>
                 <div class="nav-item dropdown">
@@ -49,6 +52,7 @@
                         <a href="5-egypt.html" class="dropdown-item hover" data-i18n="egypt">Egypt's efforts</a>
                     </div>
                 </div>
+                <a href="index.html" class="nav-item nav-link" data-i18n="signin">login</a>
             </div>
         </div>
     </nav>
@@ -71,22 +75,22 @@
             <div class="row gx-5">
                 <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.3s" src="img/reasons.png">
+                        <img style="max-height: 50%;" class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.3s" src="img/reasons.png">
                     </div>
                 </div>
                 <div class="col-lg-7">
                     <div class="mb-4">
-                        <h5 data-i18n="titleReasons" class="display-5 mb-0"></h5>
+                        <h5 data-i18n="titleReasons" class="display-5 mb-0">The causes and effects of climate change</h5>
                     </div>
-                    <h6 data-i18n="h1"></h6>
-                    <p class="mb-4" data-i18n="p1"></p>
-                    <h6 data-i18n="h2"></h6>
-                    <p class="mb-4" data-i18n="p2"></p>
-                    <h6 data-i18n="h3"></h6>
-                    <p class="mb-4" data-i18n="p3"></p>
-                    <h6 data-i18n="h4"></h6>
-                    <p class="mb-4" data-i18n="p4"></p>
-                    <a class="btn-sm btn-primary" data-i18n="downloPDF" href="https://www.academia.edu/41022985/%D8%A7%D9%84%D8%AA%D8%BA%D9%8A%D8%B1_%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%AE%D9%8A_%D8%A7%D8%B3%D8%A8%D8%A7%D8%A8%D9%87_%D9%88%D9%86%D8%AA%D8%A7%D8%A6%D8%AC%D9%87"></a>
+                    <h6 data-i18n="h1">Fossil fuels</h6>
+                    <p class="mb-4" data-i18n="p1">Coal, oil and gas is by far the largest contributor to global climate change, accounting for more than 75 percent of global greenhouse gas emissions and nearly 90 percent of all carbon dioxide emissions. Because it is located in the Earth's atmosphereGreenhouse gas emissions trap the sun 's heat. This leads to global warming and climate change. The world is currently warming faster than at any time in recorded history. Over time, higher temperatures lead to changes in weather patterns disturbances in the usual balance of nature.Which poses many dangers to humans and all other forms of life on Earth.</p>
+                    <h6 data-i18n="h2">Deforestation</h6>
+                    <p class="mb-4" data-i18n="p2">Cutting down forests to create farms or pastures, or for other reasons, causes emissions. Because trees, when cut down, release the carbon they were storing. Nearly 12 million hectares of forests are destroyed every year. Because forests absorb carbon dioxide, their destruction also limits nature's ability to keep emissions out of the atmosphere. Deforestation, along with agriculture and other changes in land use, is responsible for nearly a quarter of global greenhouse gas emissions.</p>
+                    <h6 data-i18n="h3">Transportation</h6>
+                    <p class="mb-4" data-i18n="p3">Most cars, trucks, ships, and planes run on fossil fuels, making transportation a major contributor to greenhouse gas emissions, especially carbon dioxide emissions. Road vehicles account for the bulk of combustion of petroleum-based products, such as gasoline, in internal combustion engines. But emissions from ships and aircraft also continue to increase. Transport is responsible for nearly a quarter of global energy-related carbon dioxide emissions. Trends point to a significant increase in energy use for transportation in the coming years.</p>
+                    <h6 data-i18n="h4">food production</h6>
+                    <p class="mb-4" data-i18n="p4">Food production emits carbon dioxide, methane, and other greenhouse gases in different ways, including deforestation and clearing of land for agriculture and grazing, the digestion of cattle and sheep, the production and use of fertilizers and manure to grow crops, and the use of energy to power farm equipment or fishing boats. Usually using fossil fuels. All of which makes food production a major contributor to climate change. Greenhouse gas emissions also come from food packaging and distribution.</p>
+                    <a class="btn-sm btn-primary" data-i18n="downloPDF" href="https://www.academia.edu/41022985/%D8%A7%D9%84%D8%AA%D8%BA%D9%8A%D8%B1_%D8%A7%D9%84%D9%85%D9%86%D8%A7%D8%AE%D9%8A_%D8%A7%D8%B3%D8%A8%D8%A7%D8%A8%D9%87_%D9%88%D9%86%D8%AA%D8%A7%D8%A6%D8%AC%D9%87">downlo PDF</a>
                     <div class="row g-3 mt-5">
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.6s">
                             <div class="bg-primary d-flex flex-column justify-content-center text-center border-bottom border-5 border-secondary rounded p-3" style="height: 200px;">
@@ -134,7 +138,7 @@
     <!--Javascript -->
     <script src="js/main.js"></script>
     <!-- trans code -->
-    <script src="js/script.js" type="module"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
