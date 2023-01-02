@@ -4,17 +4,11 @@ document.querySelector(".control-buttons span").onclick = function() {
 
 
     if (yourName == "" || yourName == null) {
-
         document.querySelector(".name span").innerHTML = "Unknown";
-
     } else {
-
         document.querySelector(".name span").innerHTML = yourName;
-
     }
-
     document.querySelector(".control-buttons").remove();
-
     document.getElementById('start').play();
 };
 
